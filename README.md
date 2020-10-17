@@ -1,24 +1,14 @@
-# README
+# techpit match
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 概要
+スワイプしてマッチングするサービスのレシピ
 
-Things you may want to cover:
+commiters: @sinshutu
 
-* Ruby version
+## 起動方法
+```
+$ bundle install
+$ bundle exec rails s -p 3000
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ブラウザで [localhost:3000](localhost:3000) を開く
