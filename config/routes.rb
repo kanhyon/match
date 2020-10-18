@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   resources :reactions
   resources :matching
   resources :chat
+  get '/video',to: 'video#video'  
+  
+  
 end
