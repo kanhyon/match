@@ -5,7 +5,7 @@
       <div class="chatPartner_img"><%= image_tag @chat_room_user.img_name %></div>
       <div class="chatPartner_name"><%= @chat_room_user.name %></div>
     </div>
-    <%= link_to(content_tag(:i, "", class: "fa fa-video-camera camera"), "/video" %> 
+    <%= link_to "ビデオはこちら", "/video", class: "fa fa-video-camera camera" %> 
   </header>
   <div class="container">
     <div class="messagesArea messages">
